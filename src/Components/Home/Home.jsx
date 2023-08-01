@@ -3,6 +3,7 @@ import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Tshart from '../Tshart/Tshart';
 import Cart from '../Cart/Cart';
+import './Home.css';
 
 const Home = () => {
   const tshart =useLoaderData();
