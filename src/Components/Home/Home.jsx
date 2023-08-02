@@ -11,7 +11,9 @@ const Home = () => {
   const [cart,setCart] =useState([]);
   
  const handleAddToCart =tshart =>{
-  console.log(tshart);
+  // console.log(tshart);
+  const newCart = [...cart,tshart] 
+  setCart(newCart);
  }
 
 
@@ -27,7 +29,7 @@ const Home = () => {
       }
       </div>
       <div>
-        <Cart></Cart>
+        <Cart cart={cart}></Cart>
       </div>
 
     </div>
