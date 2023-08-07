@@ -24,6 +24,10 @@ const router = createBrowserRouter([
       {
         path:'review',
         element:<OrderReview></OrderReview>
+      },
+      {
+        path:'/NewProduct',
+        element:<newProduct></newProduct>
       }
 
     ]

@@ -23,3 +23,4 @@ const Cart = ({cart,handleRemoveFromCart}) => {
 };
 
 export default Cart;
+
