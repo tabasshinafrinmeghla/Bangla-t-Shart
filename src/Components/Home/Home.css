@@ -9,3 +9,7 @@
   grid-template-columns: repeat(3,1fr);
   gap: 10px;
 }
+/* toast{
+  background-color: rgb(21, 117, 79);
+  color: aliceblue;
+} */

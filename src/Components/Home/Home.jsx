@@ -4,6 +4,7 @@ import { useLoaderData } from 'react-router-dom';
 import Tshart from '../Tshart/Tshart';
 import Cart from '../Cart/Cart';
 import './Home.css';
+import toast from 'react-hot-toast';
 
 const Home = () => {
   const tshart =useLoaderData();
@@ -12,9 +13,24 @@ const Home = () => {
   
  const handleAddToCart =tshart =>{
   // console.log(tshart);
+const exists = cart.find(ts => ts._id === tshart._id);
+if (exists){
+ toast ("you already taken this one!")
+}
+else{
   const newCart = [...cart,tshart] 
   setCart(newCart);
-  console.log(cart);
+
+}
+
+ 
+  // console.log(cart);
+ }
+
+ const handleRemoveFromCart = id =>{
+  // console.log(id);
+  const remaining =cart.filter(ts => ts._id !== id);
+  setCart(remaining);
  }
 
 
@@ -30,7 +46,9 @@ const Home = () => {
       }
       </div>
       <div>
-        <Cart cart={cart}></Cart>
+        <Cart cart={cart}
+        handleRemoveFromCart={handleRemoveFromCart}
+        ></Cart>
       </div>
 
     </div>

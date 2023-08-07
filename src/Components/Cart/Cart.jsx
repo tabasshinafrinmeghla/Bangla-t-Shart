@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
 
-const Cart = ({cart}) => {
+const Cart = ({cart,handleRemoveFromCart}) => {
     // console.log(cart)
   return (
     
@@ -12,7 +12,7 @@ const Cart = ({cart}) => {
           // console.log(tshart)
         <p key={tshart._id}>
             {tshart.name}
-           <button>x</button>
+           <button onClick={() =>handleRemoveFromCart(tshart._id)}>Remove</button>
       </p>,
       
         )
