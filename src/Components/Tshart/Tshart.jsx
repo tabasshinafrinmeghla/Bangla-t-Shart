@@ -9,7 +9,8 @@ const Tshart = ({tshart ,handleAddToCart}) => {
       <img src={picture} alt="" />
       <h4>Name : {name}</h4>
       <p>${price}price</p>
-      <button onClick={handleAddToCart}>Buy Now</button>
+      {/* <button onClick={handleAddToCart}>Buy Now</button> */}
+      <button onClick={()=> handleAddToCart(tshart)} className="btn btn-primary">Buy Now</button>
     </div>
   );
 };

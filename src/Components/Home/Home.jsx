@@ -14,6 +14,7 @@ const Home = () => {
   // console.log(tshart);
   const newCart = [...cart,tshart] 
   setCart(newCart);
+  console.log(cart);
  }
 
 
