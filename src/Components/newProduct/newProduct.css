@@ -1,18 +1,45 @@
-.product,.product div{
-  background-color: rgb(154, 254, 234);
+.product{
+  height: 100%;
+  width: 1000px;
+  background-color: rgb(103, 193, 175);
   color: black;
-  border:5px solid rgb(59, 180, 132);
+  border:3px solid rgb(70, 175, 133);
+  border-radius: 5px;
+  padding: 2%;
+  margin: 2%;
+}
+.product div{
+  background-color: rgb(113, 231, 208);
+  color: black;
+  border:3px solid rgb(70, 175, 133);
   border-radius: 5px;
   padding: 2%;
   margin: 2%;
 }
 .flex{
   display: flex;
+  
 }
 .newProduct{
   text-align: center;
 }
 h2{
   background-color: rgb(140, 224, 218);
+  margin: 10px;
+  padding: 2%;
+  text-align: center;
+  border: 1px solid rgb(55, 96, 76);
+  border-radius: 2px;
+  box-shadow: 2px 2px 3px rgb(17, 86, 60);
+
+}
+h2:hover{
+  background-color: rgb(34, 150, 103);
+  color: aliceblue;
+  margin: 10px;
+  padding: 2%;
+  text-align: center;
+  border: 1px solid rgb(35, 76, 56);
+  transition: .2s;
 
 }
