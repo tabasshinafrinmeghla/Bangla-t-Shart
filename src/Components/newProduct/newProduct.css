@@ -7,6 +7,7 @@
   border-radius: 5px;
   padding: 2%;
   margin: 2%;
+  
 }
 .product div{
   background-color: rgb(113, 231, 208);
@@ -16,16 +17,18 @@
   padding: 2%;
   margin: 2%;
   height: 100%;
-  width: 100%;
-}
-.flex{
-  display: flex;
+  width: fit-content;
   
+}
+.box{
+  display: flex;
+  justify-content: space-between;
 }
 .newProduct{
   text-align: center;
 }
 h2{
+  
   background-color: rgb(140, 224, 218);
   color: black;
   margin: 10px;
