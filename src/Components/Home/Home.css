@@ -13,3 +13,14 @@
   background-color: rgb(21, 117, 79);
   color: aliceblue;
 } */
+
+button{
+  background-color: rgb(35, 89, 97);
+  border: 2px solid rgb(33, 70, 65);
+  
+}
+button:hover{
+  background-color: rgb(5, 44, 28);
+  border: 2px solid rgb(52, 151, 138);
+
+}
