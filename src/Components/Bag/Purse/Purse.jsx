@@ -1,11 +1,11 @@
 import React from 'react';
 import WeddingPurse from './WeddingPurse/WeddingPurse';
 
-const Purse = () => {
+const Purse = ({wedding}) => {
   return (
     <div>
       <h3>Purse 2023</h3>
-      <WeddingPurse></WeddingPurse>
+      <WeddingPurse wedding={wedding}></WeddingPurse>
       <button>More</button>
     </div>
   );

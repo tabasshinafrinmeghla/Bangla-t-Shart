@@ -5,17 +5,17 @@ import Shoes from '../Shoes/Shoes';
 import "./newProduct.css"
 
 const NewProduct = () => {
-  const ring ='diamond';
+  const wedding ='collection 2023';
+  const regularUsed='nEw2023';
   return (
     <div className='product'>
       <h2 className='newProduct'>new Product</h2>
       <section className='flex'>
-        <Bag></Bag>
+        <Bag wedding ={wedding}></Bag>
         <MakeupItem></MakeupItem>
-        <Shoes></Shoes>
+        <Shoes regularUsed={regularUsed} ></Shoes>
       </section>
     </div>
   );
 };
-
 export default NewProduct;
