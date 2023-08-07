@@ -1,0 +1,14 @@
+.product,.product div{
+  background-color: rgb(154, 254, 234);
+  color: black;
+  border:5px solid rgb(59, 180, 132);
+  border-radius: 5px;
+  padding: 2%;
+  margin: 2%;
+}
+.flex{
+  display: flex;
+}
+.newProduct{
+  text-align: center;
+}
