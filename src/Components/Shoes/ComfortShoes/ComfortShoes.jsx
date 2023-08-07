@@ -1,14 +1,12 @@
 import React from 'react';
 
-const Purse = () => {
+const ComfortShoes = () => {
   return (
     <div>
-      <h3>Purse 2023</h3>
+      <h3>Flat Shoes</h3>
       <button>More</button>
     </div>
   );
 };
 
-export default Purse;
-
-// new collection 2023
+export default ComfortShoes;

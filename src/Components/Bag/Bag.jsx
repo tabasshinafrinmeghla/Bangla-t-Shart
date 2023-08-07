@@ -1,9 +1,17 @@
 import React from 'react';
+import Womensbag from './Womensbag.jsx/Womensbag';
+import MenSbag from './MenSbag/MenSbag';
+import Purse from './Purse/Purse';
 
 const Bag = () => {
   return (
     <div>
-      <h3>Here is new collection</h3>
+      <h2>Bag's</h2>
+      <section>
+        <Womensbag></Womensbag>
+        <MenSbag></MenSbag>
+        <Purse></Purse>
+      </section>
     </div>
   );
 };

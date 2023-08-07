@@ -1,14 +1,12 @@
 import React from 'react';
 
-const Purse = () => {
+const MakeupBrush = () => {
   return (
     <div>
-      <h3>Purse 2023</h3>
+      <h3>Make up Brush</h3>
       <button>More</button>
     </div>
   );
 };
 
-export default Purse;
-
-// new collection 2023
+export default MakeupBrush;
