@@ -5,6 +5,7 @@ import Shoes from '../Shoes/Shoes';
 import "./newProduct.css"
 
 const NewProduct = () => {
+  const ring ='diamond';
   return (
     <div className='product'>
       <h2 className='newProduct'>new Product</h2>
